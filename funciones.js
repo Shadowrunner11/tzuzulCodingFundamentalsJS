@@ -1,24 +1,16 @@
-/* //forma declarativa
-function elNombreDeLaFuncion (parametro1, parametro2, parametro3){
-    console.log(parametro1, parametro2, parametro3)
-}
-//call iteslf
-elNombreDeLaFuncion()
+miFuncion("Hola ", "mundo", " el diablo es puerco", "otro parametro")
 
-elNombreDeLaFuncion("hola", " mundo", 3)
-elNombreDeLaFuncion("Adios", " mundo", " todo esta caro")
 
-//otra forma
-const otraFuncion = function (parametro1, parametro2){
-    console.log(parametro1, parametro2)
+function miFuncion (param1,param2,param3){
+    console.log(param1,param2,param3)
+} 
+
+const miFuncion2 = function (param1,param2,param3){
+    console.log(param1,param2,param3)
 }
 
-otraFuncion()
-otraFuncion("hola ", "mundo")
+miFuncion2(1,3,"lala")
 
-//arrow function */
-const arrowFunction = (parametro1, parametro2)=>{
-    console.log(parametro1, parametro2)
+const miFuncion3 = (param1,param2,param3)=>{
+    console.log(param1,param2,param3)
 }
-
-arrowFunction()
