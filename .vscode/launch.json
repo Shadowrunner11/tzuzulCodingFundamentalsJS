@@ -10,7 +10,7 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "deno",
-            "runtimeArgs": ["run", "--inspect-brk", "-A", "resolucion1.js"],
+            "runtimeArgs": ["run", "--inspect-brk", "-A", "./cl3/funciones3.js"],
             "attachSimplePort": 9229
         }
     ]
