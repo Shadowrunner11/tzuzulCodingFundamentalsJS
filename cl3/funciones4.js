@@ -20,3 +20,9 @@ const innerFunction2 = outerFuncion()
 
 innerFunction2()
 
+//closure
+//decorators
+
+
+
+
