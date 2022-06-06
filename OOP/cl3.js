@@ -1,18 +1,26 @@
-/* const gato = {
+const gato = {
     name: "Michi",
     breeth:"Angora",
     color:"Amarillo",
-    scratch: ()=>{console.log("El gato ha arañado")},//function (){console.log("El gato ha arañado")}
-    walk: steps =>{console.log(`El gato ha avanzando ${steps} pasos`)},
+    scratch: function (){
+        console.log("El gato ha arañado")
+        return this
+    },//function (){console.log("El gato ha arañado")}
+    walk: function (steps){
+        console.log(`El gato ha avanzando ${steps} pasos`);
+        return this
+    },
     fly: ()=>{console.log("El gato voladooooooor")}
 }
 
 console.table(gato)
 console.log(gato.name)
 
-gato.scratch()
-gato.walk(6)
-gato.fly()
+
+gato
+    .scratch()
+    .walk(6)
+    .fly()
 
 
 const weirdObject = {
@@ -25,6 +33,7 @@ console.log(weirdObject["weird property"])
 console.log(weirdObject.for)
 
 
+
 const object  = Object.create(null)
 //Object.freeze(object)
 console.log(object)
@@ -34,7 +43,7 @@ console.table(object)
 const object2 = new Object()
 console.log(object2)
 
-console.log("el prototype primario es",Object.prototype) */
+console.log("el prototype primario es",Object.prototype) 
 
 const miArray  = new Array()
 console.log(miArray)
