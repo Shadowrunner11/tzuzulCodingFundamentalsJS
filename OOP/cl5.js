@@ -11,4 +11,5 @@
 
 //UH: Debo poder ver un menu de opciones del juego, como 
 //empezar el juego y configurar la dificultad, ademas
-//de poder escoger un nivel arbitrario
+//de poder escoger un nivel arbitrario y el color del texto
+
