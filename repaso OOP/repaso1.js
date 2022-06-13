@@ -1,26 +1,35 @@
-class Rectangle{
-
-    constructor(widht, heigth){
-        this.widht = widht
-        this.heigth = heigth
+class Rectangulo{
+    constructor(largo, alto){
+        this.largo = largo
+        this.alto = alto
     }
-
     
-    getPerimeter(){
-        return 2*(this.heigth+this.widht)
+    obtenerPerimetro(){
+        return 2*(this.largo+this.alto)
     }
-    getAreaOfRegion(){
-        return this.widht*this.heigth
+
+    obtenerAreaDeLaRegion(){
+        return this.largo*this.alto
     }
 }
 
-class Square extends Rectangle{
-    constructor(lenght){
-        super(lenght,lenght)
+const Rectangle1 = new Rectangulo(4,5)
+const Rectangle2  = new Rectangulo(3,7)
+
+console.table(Rectangle1)
+console.table(Rectangle2)
+console.log(
+    "Area region rectangulo 1",
+    Rectangle1.obtenerAreaDeLaRegion()
+    )
+
+
+class Cuadrado extends Rectangulo{
+    constructor(medidaLado){
+        super(medidaLado,medidaLado)
     }
-} 
+}
+const cuadrado1 = new Cuadrado(9)
 
-const MiCuadradito = new Square(9)
-const MiCuadradito2 = new Square(10)
-
-
+console.table(cuadrado1)
+console.log(cuadrado1.obtenerPerimetro())
