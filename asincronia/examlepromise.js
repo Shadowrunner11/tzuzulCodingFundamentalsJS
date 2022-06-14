@@ -1,5 +1,3 @@
-
-
 async function menu(){
     await new Promise(res=>{
         let cont = 1
