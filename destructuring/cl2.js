@@ -1,4 +1,4 @@
-let [desayuno, cena,, almuerzo] = [
+/* let [desayuno, cena,, almuerzo] = [
     "cafe", 
     "fruta",
     "doritos",
@@ -10,29 +10,33 @@ console.log(desayuno)
 console.log(cena)
 
 console.log(almuerzo)
-
+ */
 
 /* const {sala, comedor} = {
-                    dormitorio  :"cama",
-                    tocador     :"espejo",
-                    comedor     :"mesa",
-                    sala        :"tv"
-                }
+                        dormitorio  :"cama",
+                        tocador     :"espejo",
+                        comedor     :"mesa",
+                        sala        :"tv"
+                    }
 
-console.log("lo que hay en la sala es "+sala," y en el comedor " + comedor) */
+console.log("lo que hay en la sala es "+sala," y en el comedor " + comedor)
+ */
 
-const {sala : primerEspacio, comedor: segundoEspacio} ={
-                                dormitorio  :"cama",
-                                tocador     :"espejo",
-                                comedor     :"mesa",
-                                sala        :"tv"
-                            }
-console.log(primerEspacio, segundoEspacio)
+/* const {
+    sala    : primerEspacio, 
+    comedor : segundoEspacio
+} = {
+    dormitorio  :"cama",
+    tocador     :"espejo",
+    comedor     :"mesa",
+    sala        :"tv"
+    }
+console.log(primerEspacio, segundoEspacio) */
 
 /* function imprimirNombreYSalario(nombre, salario){
     console.log(nombre, salario)
-} */
-
+}
+ */
 const persona = {
     nombre: "Pepito",
     salario: {
@@ -47,23 +51,22 @@ const persona = {
 function imprimirNombreYSalarioV2({
     nombre, 
     salario:{
-        hasta
+        desde
     }
 }){
     console.log("el nombre es " +nombre)
-    console.log("el salario es "+ hasta)
+    console.log("el salario es "+ desde)
 }
 
-imprimirNombreYSalarioV2(persona)
+/* imprimirNombreYSalarioV2(persona) */
 
 const pikachu = {
     id: 25,
     attacks:["hiperrayo", "hidrombomba","rayo hielo"]
-}
-
+} 
 /* const id = pikachu.id
-const atk1 =  pikachu.attacks[0] */
-
+const atk1 =  pikachu.attacks[0]
+ */
 const {
     id, 
     attacks:[atk1]
@@ -71,7 +74,7 @@ const {
 
 console.log(id, atk1)
 
-let estado;
+/* let estado;
 
 function useState(estadoIncial){
     estado = estadoIncial
@@ -84,9 +87,9 @@ function useState(estadoIncial){
 
 const [hora, setHora] = useState("asdas")
 console.log(hora)
+ */
 
-
-
+const [{}, {}] = [{},{}]
 
 
 
